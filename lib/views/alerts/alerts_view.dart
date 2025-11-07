@@ -70,7 +70,7 @@ class _AlertsViewState extends State<AlertsView> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Recent Alerts',
+                        AppStrings.recentAlerts,
                         style: Theme.of(context).textTheme.titleLarge,
                       ),
                       const SizedBox(height: 16),

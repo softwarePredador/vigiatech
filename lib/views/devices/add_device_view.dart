@@ -102,7 +102,7 @@ class _AddDeviceViewState extends State<AddDeviceView> {
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      'Scan for nearby VIGIATECH sensors and connect them to your Wi-Fi network.',
+                      AppStrings.bluetoothInstruction,
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                         color: AppColors.primaryTextDimmed,
@@ -137,7 +137,7 @@ class _AddDeviceViewState extends State<AddDeviceView> {
             // Available Devices
             if (_availableDevices.isNotEmpty) ...[
               Text(
-                'Available Devices',
+                AppStrings.availableDevices,
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               const SizedBox(height: 12),
@@ -169,7 +169,7 @@ class _AddDeviceViewState extends State<AddDeviceView> {
             // Wi-Fi Configuration
             if (_selectedDevice != null) ...[
               Text(
-                'Wi-Fi Configuration',
+                AppStrings.wifiConfiguration,
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               const SizedBox(height: 12),

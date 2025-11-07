@@ -73,7 +73,7 @@ class _ForgotPasswordViewState extends State<ForgotPasswordView> {
 
           // Instructions
           Text(
-            'Enter your email address and we\'ll send you a link to reset your password.',
+            AppStrings.resetPasswordInstruction,
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodyLarge?.copyWith(
               color: AppColors.primaryTextDimmed,

@@ -70,7 +70,7 @@ class _SettingsViewState extends State<SettingsView> {
                 
                 _SettingsTile(
                   icon: Icons.help_outline,
-                  title: 'Help & Support',
+                  title: AppStrings.helpSupport,
                   onTap: () {
                     // TODO: Navigate to help screen
                   },
@@ -79,7 +79,7 @@ class _SettingsViewState extends State<SettingsView> {
                 
                 _SettingsTile(
                   icon: Icons.info_outline,
-                  title: 'About',
+                  title: AppStrings.about,
                   onTap: () {
                     _showAboutDialog(context);
                   },

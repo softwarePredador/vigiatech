@@ -72,7 +72,7 @@ class _MachineDetailsViewState extends State<MachineDetailsView> {
         break;
       case MachineStatus.offline:
         statusColor = AppColors.primaryTextDimmed;
-        statusText = 'Offline';
+        statusText = AppStrings.offline;
         statusIcon = Icons.offline_bolt;
         break;
     }
@@ -145,7 +145,7 @@ class _MachineDetailsViewState extends State<MachineDetailsView> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Vibration History',
+              AppStrings.vibrationHistory,
               style: Theme.of(context).textTheme.titleMedium?.copyWith(
                 color: AppColors.primaryTextDimmed,
               ),
@@ -163,7 +163,7 @@ class _MachineDetailsViewState extends State<MachineDetailsView> {
             
             const SizedBox(height: 8),
             Text(
-              'Last 10 readings',
+              AppStrings.lastReadings,
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                 color: AppColors.primaryTextDimmed,
@@ -236,7 +236,7 @@ class _MachineDetailsViewState extends State<MachineDetailsView> {
       case MachineStatus.critical:
         return AppStrings.critical;
       case MachineStatus.offline:
-        return 'Offline';
+        return AppStrings.offline;
     }
   }
 

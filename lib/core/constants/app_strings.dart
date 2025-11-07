@@ -37,6 +37,18 @@ class AppStrings {
   static const String vibrationLevel = 'Vibration Level';
   static const String lastUpdated = 'Last Updated';
   
+  // Additional UI Strings
+  static const String vibrationHistory = 'Vibration History';
+  static const String lastReadings = 'Last 10 readings';
+  static const String offline = 'Offline';
+  static const String availableDevices = 'Available Devices';
+  static const String wifiConfiguration = 'Wi-Fi Configuration';
+  static const String helpSupport = 'Help & Support';
+  static const String about = 'About';
+  static const String recentAlerts = 'Recent Alerts';
+  static const String bluetoothInstruction = 'Scan for nearby VIGIATECH sensors and connect them to your Wi-Fi network.';
+  static const String resetPasswordInstruction = 'Enter your email address and we\'ll send you a link to reset your password.';
+  
   // Error Messages
   static const String errorGeneric = 'An error occurred. Please try again.';
   static const String errorNetwork = 'Network error. Please check your connection.';

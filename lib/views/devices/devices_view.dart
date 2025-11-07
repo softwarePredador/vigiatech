@@ -168,7 +168,7 @@ class _MachineCard extends StatelessWidget {
       case MachineStatus.critical:
         return AppStrings.critical;
       case MachineStatus.offline:
-        return 'Offline';
+        return AppStrings.offline;
     }
   }
 
